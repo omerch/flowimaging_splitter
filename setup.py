@@ -7,4 +7,6 @@ setup(name = 'flowimagingsplitter',
       packages = ['flowimagingsplitter'],
       author = 'Muhammad Umar',
       author_email = 'omerch35@yahoo.com',
+      url = 'https://github.com/omerch/flowimaging_splitter',
+      packages = setuptools.find_packages(),
       zip_safe = False )
