@@ -2,4 +2,4 @@
 Split flow imaging microscopes (FlowCam and FlowCam nano) collage images into a single image.
 
 
-![GitHub Logo](/images/.png)
+![GitHub Logo](/images/2.tif)
