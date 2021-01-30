@@ -8,8 +8,7 @@ import imutils
 import os
 
 def tif_files(collage_folder_path):
-	'''Select only .t
-	if files'''
+	'''Select only .t if files'''
 	return [tf for tf in os.listdir(collage_folder_path) if tf.endswith('.tif') and not tf.endswith('bin.tif') and not tf.startswith('cal_') and not tf.startswith('rawfile_')]
 
 def split_image(file_name, output_folder):
@@ -56,9 +55,10 @@ def main(folder_name):
 		split_image(file, output_folder_path)
 		
 if __name__ == '__main__':
-
-	COLLAGE_DIR = r'K:\RAWDATA\XRMU001\mAb7_SO_09_09_2020\mAb7_heatstressed_200xdilution_buffer_10ml_r2\mAb7_heatstressed_200xdilution_buffer_10ml_r5_EG12'
-	OUTPUT_DIR = r'K:\SCIENTIFIC\GEMINI\XRMU001\15_data\SEPTEMBER2020\mAb7_heatstressed_200xdilution_buffer_10ml_r2'
+	# absolute directory of collage images
+	COLLAGE_DIR = r''
+	# output directory of single images
+	OUTPUT_DIR = r''
 	main("")
 		
 	print('Program Finished')

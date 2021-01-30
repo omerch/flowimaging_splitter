@@ -63,10 +63,3 @@ class FlowImagingSplitter:
 			print(file)
 			self.split_image(file, self.output_folder_path)
 
-
-# if __name__ == '__main__':
-# 	COLLAGE_DIR = r"D:\Coriolis_Work\Nils Document\conc_1e7\300nm"
-# 	OUTPUT_DIR = r"D:\Coriolis_Work\OpenCV\results\300nm"
-	
-# 	splitter = FlowCamImageSplitter(COLLAGE_DIR,OUTPUT_DIR)
-# 	splitter.main()	
